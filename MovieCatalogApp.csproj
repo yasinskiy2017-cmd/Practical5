@@ -15,6 +15,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<MauiXaml Update="App.xaml" />
+		<MauiXaml Update="AppShell.xaml" />
+		<MauiXaml Update="Views\MainPage.xaml" />
+		<MauiXaml Update="Controls\MovieItemView.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<MauiImage Include="Resources\Images\*" />
 		<MauiFont Include="Resources\Fonts\*" />
 	</ItemGroup>
